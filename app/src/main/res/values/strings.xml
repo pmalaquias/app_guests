@@ -17,4 +17,5 @@
     <string name="text_absent">Absent</string>
     <string name="text_view_present">Present</string>
     <string name="button_save">Save</string>
+    <string name="text_name">Name</string>
 </resources>

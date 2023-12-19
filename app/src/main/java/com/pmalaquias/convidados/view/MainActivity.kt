@@ -1,4 +1,4 @@
-package com.pmalaquias.convidados
+package com.pmalaquias.convidados.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,6 +10,7 @@ import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.pmalaquias.convidados.R
 import com.pmalaquias.convidados.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -26,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(binding.appBarMain.toolbar)
 
         binding.appBarMain.fab.setOnClickListener { view ->
-            startActivity(Intent(applicationContext,GuestFormActivity::class.java))
+            startActivity(Intent(applicationContext, GuestFormActivity::class.java))
         }
 
         setUpNavigation()

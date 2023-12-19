@@ -1,4 +1,4 @@
-package com.pmalaquias.convidados.ui.absent
+package com.pmalaquias.convidados.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
