@@ -13,4 +13,8 @@ class GuestRepository private constructor() {
             return repository
         }
     }
+
+    fun save(){
+        //TODO: save on database
+    }
 }
