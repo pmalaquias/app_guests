@@ -13,4 +13,8 @@
     <string name="absent">Absents</string>
     <string name="presents">Presents</string>
     <string name="all_guests">All Guests</string>
+    <string name="text_present">Present</string>
+    <string name="text_absent">Absent</string>
+    <string name="text_view_present">Present</string>
+    <string name="button_save">Save</string>
 </resources>
